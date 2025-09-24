@@ -10,7 +10,7 @@
 - 목차
     1. **프로젝트 개요**
         - 목표
-        - 전체 학습 로드맵 (LangChain → LangGraph → MCP)
+        - 전체 로드맵 (LangChain → LangGraph → MCP)
     2. **1단계: LangChain – 재무제표 QA 챗봇**
         - 목표
         - 아키텍처
@@ -23,18 +23,18 @@
         - 아키텍처
         - LangChain 대비 LangGraph의 차별점
         - 코드 구조 & 실행 방법
-        - 실습 결과 (예: 단계적 질의, 상태 기반 응답)
+        - 실습 결과 
         - 학습 포인트
     4. **3단계: MCP – 실무형 에이전트로 확장**
         - 목표 (멀티에이전트, 외부 API 연동)
         - 아키텍처
         - MCP의 핵심 개념 (Client, Tool, Protocol, Orchestration)
         - 코드 구조 & 실행 방법
-        - 실습 결과 (예: 외부 금융 API + 내부 문서 QA 결합)
+        - 실습 결과 
         - 학습 포인트
     5. **종합 정리 및 실무 적용**
         - LangChain → LangGraph → MCP를 단계적으로 학습한 의미
-        - 앞으로의 확장 아이디어 (예: ERP Modernization, 데이터 거버넌스, AI 에이전트 자동화 등)
+        - 앞으로의 확장 아이디어 
     6. **폴더 구조**
         - 전체 프로젝트 구조 (`finance-qa-bot/`, `graph-extension/`, `mcp-agent/`)
     7. **설치 및 실행 방법**
