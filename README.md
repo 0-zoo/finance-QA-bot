@@ -1,7 +1,13 @@
 # LangChain · LangGraph · MCP : 재무제표 QA 챗봇에서 실무형 에이전트까지
 
+<img width="150" height="460" alt="image" src="https://github.com/user-attachments/assets/88ca42ab-ba72-4c0a-a913-8880938a04e3" />
+<img width="150" height="983" alt="image" src="https://github.com/user-attachments/assets/d31682c3-663f-474c-9df2-2345e75639da" />
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/fe99cb88-407b-4102-95f6-81faef12faff" />
+<img width="150" height="600" alt="image" src="https://github.com/user-attachments/assets/ce1566bf-0393-4f68-93cf-5f116c56f3ca" />
+
+
+
 - 목차
-  <details>
     1. **프로젝트 개요**
         - 목표
         - 전체 학습 로드맵 (LangChain → LangGraph → MCP)
@@ -39,7 +45,6 @@
         - LangChain 공식 문서
         - LangGraph 문서
         - MCP GitHub 레포지토리
-  </details>
 
 # 1. 프로젝트 개요
 
@@ -369,6 +374,8 @@ streamlit run app.py
 ---
 
 ## 결과
+<img width="600" height="788" alt="image" src="https://github.com/user-attachments/assets/b4bbf93f-7145-48d8-9a5c-676106553ce7" />
+
 
 ### (1) 기본 요약 질문
 
@@ -381,17 +388,21 @@ streamlit run app.py
 ---
 
 ### (2) 계산 질문
+<img width="600" height="1088" alt="image" src="https://github.com/user-attachments/assets/f4b04cdf-3c17-435e-b604-373d210c49ac" />
+
 
 - 질문: `2022년 부채비율을 계산해줘`
-- 과정: Retriever가 **부채총계**와 **자본총계** 값을 검색 → PythonREPLTool로 계산 → LLM이 설명 포함 응답
+- 과정: Retriever가 **부채총계**와 **자본총계** 값을 검색 → PythonREPLTool로 계산 → LLM이 응답
 - 답변:
     
-    > 2022년 부채총계는 8,380,242,857원, 자본총계는 83,034,734,858원입니다. 따라서 부채비율은 약 10.1%입니다.
+    > 90.83% (2022년 부채비율)
     > 
 
-    
-- 질문 유형별 답변 전체
+---
+
+### 질문 유형별 답변 전체
   <details>
+    
     ### 1. 기본 요약
     
     1. 2022년과 2021년 자산총계의 변화를 요약해줘.
