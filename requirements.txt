@@ -1,0 +1,13 @@
+langchain==0.2.10
+langchain-community==0.2.10
+langchain-openai==0.1.7
+chromadb==0.4.22
+openai==1.35.7
+tiktoken
+pypdf
+streamlit
+python-dotenv
+httpx==0.27.2
+posthog<3.0.0   # 혹시 모를 호환성 이슈 대비
+langchain-experimental==0.0.64
+pydantic<2

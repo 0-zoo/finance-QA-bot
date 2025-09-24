@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Vector DB
+.chroma_db/
+
+# Uploaded data
+data/uploaded.pdf
+
+# VSCode / PyCharm
+.vscode/
+.idea/
